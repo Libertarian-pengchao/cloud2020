@@ -3,9 +3,9 @@ server:
 
 eureka:
   instance:
-    appname: localhost
+    appname: eureka7001
   client:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://${eureka.instance.appname}:${server.port}/eureka
+      defaultZone: http://eureka7002.com:7002/eureka
