@@ -26,3 +26,7 @@ cloud-consumer-order80/target/
 cloud-provider-payment-8001/src/main/resources/mapper/
 cloud-provider-payment-8001/src/test/
 /cloud-consumer-order80/target/
+/cloud-eureka-server7001/target/
+cloud-eureka-server7001/src/test/
+cloud-eureka-server7002/src/test/
+cloud-eureka-server7002/target/
