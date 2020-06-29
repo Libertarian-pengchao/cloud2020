@@ -17,6 +17,12 @@
             <artifactId>cloud-api-commons</artifactId>
             <version>${project.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
         <!-- 添加bootweb启动依赖与健康监控依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
