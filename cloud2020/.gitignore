@@ -1,0 +1,28 @@
+/src/site/
+/src/
+/cloud2020.iml
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+.idea/.gitignore
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/sonarIssues.xml
+.idea/sonarlint/
+.idea/vcs.xml
+/cloud-provider-payment-8001/target/
+cloud-api-commons/src/main/resources/
+cloud-api-commons/src/test/
+cloud-api-commons/target/
+cloud-consumer-order80/src/test/
+cloud-consumer-order80/target/
+cloud-provider-payment-8001/src/main/resources/mapper/
+cloud-provider-payment-8001/src/test/
+/cloud-consumer-order80/target/
