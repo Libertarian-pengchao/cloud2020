@@ -1,5 +1,6 @@
 server:
-  port: 8002
+  port: 8004
+
 
 spring:
   application:
@@ -10,16 +11,10 @@ spring:
     username: root
     password: root
 
+  cloud:
+    zookeeper:
+      connect-string: 192.168.73.151:2181
+
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.pc.springcloud.entity
-
-
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      defaultZone: http://eureka7001.com:7001/eureka, http://eureka7002.com:7002/eureka
-  instance:
-    instance-id: payment8002
