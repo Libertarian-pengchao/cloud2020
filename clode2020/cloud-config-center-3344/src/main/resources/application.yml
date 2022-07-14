@@ -11,7 +11,7 @@ spring:
           uri: https://github.com/Libertarian-pengchao/cloud2020.git #GitHub上面的git仓库名字
           ####搜索目录
           search-paths:
-            - cloud2020/springcloud-config
+            - cloud2020/clode2020/springcloud-config
       ####读取分支
       label: master
 
